@@ -22,16 +22,24 @@
 
 ---
 
-## 📥 Downloadable Jars
+## 📥 Downloadable Jars (All Versions)
 
-Pre-compiled releases are kept directly in the [`outputs/`](outputs/) folder for quick access:
+Pre-compiled releases for every supported Minecraft version line are included directly in the [`outputs/`](outputs/) folder:
 
-| Minecraft Version | Download File | Notes |
-| :--- | :--- | :--- |
-| **Minecraft 26.3** | [`outputs/biggerenderchest-26.3-0.1.0+mc26.3.jar`](outputs/biggerenderchest-26.3-0.1.0+mc26.3.jar) | Latest release built for Minecraft 26.3 |
-| **Minecraft 26.2** | [`outputs/biggerenderchest-26.2-0.1.0+mc26.2.jar`](outputs/biggerenderchest-26.2-0.1.0+mc26.2.jar) | Release for Minecraft 26.2 |
+| Minecraft Version | Mod Version | Download Jar | Supported Game Versions |
+| :--- | :--- | :--- | :--- |
+| **Minecraft 26.3** | `0.1.0+mc26.3` | [Download](outputs/biggerenderchest-26.3-0.1.0+mc26.3.jar) | `26.3` (Latest) |
+| **Minecraft 26.2** | `0.1.0+mc26.2` | [Download](outputs/biggerenderchest-26.2-0.1.0+mc26.2.jar) | `26.2` |
+| **Minecraft 26.1.x** | `1.0.0` | [Download](outputs/biggerenderchest-fabric-26.1-to-26.1.x.jar) | `26.1`, `26.1.1`, `26.1.2` |
+| **Minecraft 1.21.x** | `1.0.0` | [Download](outputs/biggerenderchest-fabric-1.21.1-to-1.21.11.jar) | `1.21.1` – `1.21.11` |
+| **Minecraft 1.20.5 – 1.20.6** | `1.0.0` | [Download](outputs/biggerenderchest-fabric-1.20.5-to-1.20.6.jar) | `1.20.5`, `1.20.6` |
+| **Minecraft 1.20 – 1.20.4** | `1.0.0` | [Download](outputs/biggerenderchest-fabric-1.20.0-to-1.20.4.jar) | `1.20`, `1.20.1`, `1.20.2`, `1.20.3`, `1.20.4` |
+| **Minecraft 1.19.x** | `1.0.0` | [Download](outputs/biggerenderchest-fabric-1.19.x.jar) | `1.19`, `1.19.1`, `1.19.2`, `1.19.3`, `1.19.4` |
+| **Minecraft 1.18.x** | `1.0.0` | [Download](outputs/biggerenderchest-fabric-1.18.x.jar) | `1.18`, `1.18.1`, `1.18.2` |
+| **Minecraft 1.17.x** | `1.0.0` | [Download](outputs/biggerenderchest-fabric-1.17.x.jar) | `1.17`, `1.17.1` |
+| **Minecraft 1.16.x** | `1.0.0` | [Download](outputs/biggerenderchest-fabric-1.16.x.jar) | `1.16`, `1.16.1`, `1.16.2`, `1.16.3`, `1.16.4`, `1.16.5` |
 
-You can also find all official releases across 1.16 through 26.x on [Modrinth](https://modrinth.com/mod/bigger-ender-chest).
+All versions are also published and maintained on [Modrinth](https://modrinth.com/mod/bigger-ender-chest).
 
 ---
 
@@ -39,7 +47,7 @@ You can also find all official releases across 1.16 through 26.x on [Modrinth](h
 
 1. Install [Fabric Loader](https://fabricmc.net/use/installer/) (version `0.15.0` or higher).
 2. Download and place the matching version of [Fabric API](https://modrinth.com/mod/fabric-api) into your `.minecraft/mods` directory (or server `mods` directory).
-3. Download the matching **Bigger Ender Chest** `.jar` from [`outputs/`](outputs/) or [Modrinth](https://modrinth.com/mod/bigger-ender-chest) and place it into the `mods` folder.
+3. Download the matching **Bigger Ender Chest** `.jar` from the table above (or [Modrinth](https://modrinth.com/mod/bigger-ender-chest)) and place it into your `mods` folder.
 4. Launch the game and enjoy expanded Ender Chest storage!
 
 ---
