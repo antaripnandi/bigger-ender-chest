@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.biggerenderchest.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "PlayerEnderChestContainerMixin",
+    "EnderChestBlockMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

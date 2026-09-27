@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "biggerenderchest",
+  "version": "${version}",
+  "name": "Bigger Ender Chest",
+  "description": "Expands vanilla Ender Chest storage from 27 slots (3 rows) to 54 slots (6 rows).",
+  "authors": [
+    "antaripnandi"
+  ],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/bigger-ender-chest",
+    "sources": "https://github.com/antaripnandi/bigger-ender-chest"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.biggerenderchest.BiggerEnderChest"
+    ]
+  },
+  "mixins": [
+    "biggerenderchest.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "${minecraft_version}"
+  }
+}
