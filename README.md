@@ -45,10 +45,9 @@ All versions are also published and maintained on [Modrinth](https://modrinth.co
 
 ## 🛠️ Requirements & Installation
 
-1. Install [Fabric Loader](https://fabricmc.net/use/installer/) (version `0.15.0` or higher).
-2. Download and place the matching version of [Fabric API](https://modrinth.com/mod/fabric-api) into your `.minecraft/mods` directory (or server `mods` directory).
-3. Download the matching **Bigger Ender Chest** `.jar` from the table above (or [Modrinth](https://modrinth.com/mod/bigger-ender-chest)) and place it into your `mods` folder.
-4. Launch the game and enjoy expanded Ender Chest storage!
+1. Install [Fabric Loader](https://fabricmc.net/use/installer/) (version `0.15.0` or higher). Note: Fabric API is **not** required.
+2. Download the matching **Bigger Ender Chest** `.jar` from the table above (or [Modrinth](https://modrinth.com/mod/bigger-ender-chest)) and place it into your `mods` folder.
+3. Launch the game and enjoy expanded Ender Chest storage!
 
 ---
 
