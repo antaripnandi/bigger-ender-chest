@@ -29,20 +29,4 @@ public class EnderChestBlockMixin {
             Component.translatable("container.enderchest")
         );
     }
-
-    @Redirect(
-        method = {
-            "lambda$useWithoutItem$0",
-            "lambda$use$0",
-            "*"
-        },
-        at = @At(
-            value = "INVOKE",
-            target = "Lnet/minecraft/world/inventory/ChestMenu;threeRows(ILnet/minecraft/world/entity/player/Inventory;Lnet/minecraft/world/Container;)Lnet/minecraft/world/inventory/ChestMenu;"
-        ),
-        require = 0
-    )
-    private ChestMenu biggerenderchest$createSixRowsEnderChestMenu(int syncId, Inventory playerInventory, Container container) {
-        return ChestMenu.sixRows(syncId, playerInventory, container);
-    }
 }
