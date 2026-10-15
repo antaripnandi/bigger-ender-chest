@@ -9,7 +9,7 @@ val modId = "biggerenderchest"
 val mcVersion = sc.current.version
 
 group = "com.biggerenderchest"
-version = "0.1.0+mc$mcVersion"
+version = "0.1.1+mc$mcVersion"
 
 repositories {
     maven("https://maven.fabricmc.net/")

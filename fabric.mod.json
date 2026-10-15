@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "biggerenderchest",
-  "version": "0.1.0+mc26.3",
+  "version": "0.1.1+mc26.3",
   "name": "Bigger Ender Chest",
   "description": "Expands vanilla Ender Chest storage from 27 slots (3 rows) to 54 slots (6 rows).",
   "authors": [
